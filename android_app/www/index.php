@@ -12,12 +12,13 @@
     <title>App</title>
   </head>
   <body class="body">
+    <div class="background-image"></div>
     <div class="container">
-        <div class="row justify-content-center">
-            <form class="form-signin">
-                <input class="form-control mb-2" type="text" name="usuario" placeholder="Usuario">
-                <input class="form-control mb-2" type="password" name="password" placeholder="Contraseña">
-                <input class="btn btn-secondary" type="submit" value="Entrar">
+        <div class="row" style="text-align: center;">
+            <form class="form-signin" method="post" action="#">
+                <input class="form-control mb-2 col-10 offset-1" type="text" name="usuario" placeholder="Usuario">
+                <input class="form-control mb-2 col-10 offset-1" type="password" name="password" placeholder="Contraseña">
+                <input class="btn btn-outline-warning" type="submit" value="Entrar">
             </form>
         </div>
     </div>
