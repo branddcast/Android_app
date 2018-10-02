@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  /*background: #f2f2f2;*/
+  font-family: 'PT Sans', sans-serif;
+}
+
+.form-signin {
+  width: 100% !important;
+  max-width: 430px !important;
+  padding: 20px !important;
+  margin: auto !important;
+  z-index: 9999 !important;
+  background: rgba(255, 255, 255, 1) !important;
+  border-radius: 6px !important;
+}
+
+.form-signin input[type=text], input[type=password]{
+	border: none;
+	background: #f2f2f2;
+}
+
+.form-signin input[type=text]:hover, input[type=password]:hover{
+	border: none;
+	background: #fff;
+}
+.nav-bar{
+	background: #026796FF;
+}
